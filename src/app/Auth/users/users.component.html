@@ -1,0 +1,22 @@
+<div class="container vh-100 bg-info">
+    <div class="box">
+        <table class="table ">
+            <tr>
+                <th>ID</th>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>EMAIL</th>
+                <th>PASSWORD</th>
+                <th>DELETE</th>
+                <th>VIEW</th>
+            </tr>
+            <tr *ngFor="let d of data">
+                <td>{{d.id}}</td>
+                <td>{{d.fname}}</td>
+                <td>{{d.lname}}</td>
+                <td>{{d.email}}</td>
+                <td>{{d.password}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

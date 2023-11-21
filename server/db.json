@@ -1,0 +1,157 @@
+{
+  "admin": [
+    {
+      "name": "shalu",
+      "email": "shalu@gmail.com",
+      "password": "Shalu@12345"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fname": "shalu",
+      "lname": "kashyap",
+      "email": "shalukashyap382@gmail.com",
+      "phone": 8077869222,
+      "password": "Shalu@123",
+      "confirmPass": "Shalu@123"
+    },
+    {
+      "fname": "ashok",
+      "lname": "kumar",
+      "email": "ashok@gmail.com",
+      "password": "Ashok@123",
+      "confirmPass": "Ashol@123",
+      "id": 2
+    },
+    {
+      "fname": "kiran",
+      "lname": "kumar",
+      "email": "kiran@gmail.com",
+      "password": "Kiran@123",
+      "confirmPass": "Kiran@123",
+      "id": 3
+    }
+  ],
+  "sellers": [
+    {
+      "id": 1,
+      "fname": "shalu",
+      "lname": "kashyap",
+      "email": "shalukashyap382@gmail.com",
+      "phone": 8077869222,
+      "password": "Shalu@123",
+      "confirmPass": "Shalu@123"
+    },
+    {
+      "Sname": "shalu kashyap",
+      "email": "shalukashyap382@gmail.com",
+      "password": "khushboo@123",
+      "id": 2
+    },
+    {
+      "Sname": "shirmran",
+      "email": "anjali@gmail.com",
+      "password": "simran@123",
+      "id": 3
+    },
+    {
+      "fname": "shalu",
+      "lname": "kashyap",
+      "email": "shalukashyap382@gmail.com",
+      "password": "shalu@123",
+      "confirmPass": "shalu@123",
+      "id": 4
+    },
+    {
+      "fname": "sonu",
+      "lname": "kumar",
+      "email": "sonu@gmail.com",
+      "password": "123456",
+      "confirmPass": "123456",
+      "id": 5
+    },
+    {
+      "fname": "annu",
+      "lname": "kashyap",
+      "email": "annu@gmail.com",
+      "password": "Annu@123",
+      "confirmPass": "Annu@123",
+      "id": 6
+    },
+    {
+      "fname": "akash",
+      "lname": "kumar",
+      "email": "akash@gmail.com",
+      "password": "Akash@123",
+      "confirmPass": "Akash@123",
+      "id": 7
+    },
+    {
+      "fname": "deepa",
+      "lname": "tyagi",
+      "email": "deepa@gmail.com",
+      "password": "Deepa@123",
+      "confirmPass": "Deepa@123",
+      "id": 8
+    }
+  ],
+  "action-cars": [
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6ELawGHTDRBj9i3978uOflEgzuR9CNHWcQ&usqp=CAU",
+      "title": "Electric Car",
+      "price": "5000Rs",
+      "disprice": "4000Rs"
+    },
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6ELawGHTDRBj9i3978uOflEgzuR9CNHWcQ&usqp=CAU",
+      "title": "Electric Car",
+      "price": "5000Rs",
+      "disprice": "4000Rs"
+    },
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6ELawGHTDRBj9i3978uOflEgzuR9CNHWcQ&usqp=CAU",
+      "title": "Electric Car",
+      "price": "5000Rs",
+      "disprice": "4000Rs"
+    },
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6ELawGHTDRBj9i3978uOflEgzuR9CNHWcQ&usqp=CAU",
+      "title": "Electric Car",
+      "price": "5000Rs",
+      "disprice": "4000Rs"
+    },
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6ELawGHTDRBj9i3978uOflEgzuR9CNHWcQ&usqp=CAU",
+      "title": "Electric Car",
+      "price": "5000Rs",
+      "disprice": "4000Rs"
+    },
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6ELawGHTDRBj9i3978uOflEgzuR9CNHWcQ&usqp=CAU",
+      "title": "Electric Car",
+      "price": "5000Rs",
+      "disprice": "4000Rs"
+    },
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6ELawGHTDRBj9i3978uOflEgzuR9CNHWcQ&usqp=CAU",
+      "title": "Electric Car",
+      "price": "5000Rs",
+      "disprice": "4000Rs"
+    },
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6ELawGHTDRBj9i3978uOflEgzuR9CNHWcQ&usqp=CAU",
+      "title": "Electric Car",
+      "price": "5000Rs",
+      "disprice": "4000Rs"
+    }
+  ]
+}

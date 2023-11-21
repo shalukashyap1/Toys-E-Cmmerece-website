@@ -1,0 +1,28 @@
+.container-fluid{
+    height: auto;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/id/1474838886/photo/business-partner-handshake-after-the-meeting-financial-and-investment-cooperation.jpg?s=170667a&w=0&k=20&c=bPCYbH1h289ZrAmdDyFh38TbpAciYqFpaLtCy-uQhRU=");
+    background-size: cover;
+       padding: 30px;
+}
+.box{
+    width: 30%;
+    height: auto;
+    margin-left:60%; 
+    margin-top: 180px;
+    background-image: url("https://th.bing.com/th/id/R.4842cb254f726b6a8eb7e95fdd73df32?rik=NViw1rR3zPIMEg&riu=http%3a%2f%2fwww.uniquewatchguide.com%2fimage-files%2fEllipse-4-S2-300x300.jpg&ehk=G6dzqvQd5IQYwqAR3hy9yvTwkogLbXF8BGuKO6FzTas%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    padding: 30px;
+    border-radius:20px;
+
+}
+.mb-3{
+    margin-top: 30px;
+}
+.btn{
+    width: 150px;
+    margin-left:60px ;
+}

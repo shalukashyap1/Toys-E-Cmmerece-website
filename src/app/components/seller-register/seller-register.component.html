@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <!-- <video width="100%"  height="500px" src="/_import_626387f5e05978.25339706_FPpreview.mp4"></video> -->
+    <form [formGroup]="regForm" (ngSubmit)="register(regForm)">
+        <div class="box animate__animated animate__flipInY " >
+        <h3 class="text text-center text-light">Create New Account</h3>
+            <div class="mb-3">
+             <input type="text" formControlName="fname"   class="form-control" 
+             placeholder="First Name" required>
+             <div class="alert alert-danger" *ngIf="!f['fname'].valid && f['fname'].touched">
+                required
+                </div>
+            </div>
+            <div class="mb-3">
+                <input type="text"  formControlName="lname" ngModel  class="form-control" 
+                placeholder="Last Name" required>
+                <div class="alert alert-danger" *ngIf="!f['lname'].valid && f['lname'].touched">
+                    required
+                </div>
+               </div>
+            <div class="mb-3">
+                <input type="email" formControlName="email"  class="form-control"
+                placeholder="Email ID" required="">
+                <div class="alert alert-danger" *ngIf="!f['email'].valid && f['email'].touched">
+                    please require vaile email id.
+                 </div>
+            </div>
+            <div class="mb-3">
+               <input type="password" formControlName="password"  class="form-control"
+               placeholder="password" required=""> 
+               <div class="alert alert-danger" *ngIf="!f['password'].valid && f['password'].touched">
+                at least 1 uppercase,1 symbol,numaric value.
+              </div>
+            </div>
+            <div class="mb-3">
+                <input type="password" formControlName="confirmPass" class="form-control"
+                placeholder="Confirm password"> 
+                <div class="alert alert-danger" *ngIf="!f['confirmPass'].valid && f['confirmPass'].touched">
+                    required
+                   </div>
+             </div>
+            <div class="mb-3">
+              <input type="submit" value="Register" [disabled]="!regForm.valid" class="btn btn-danger btn-center"> 
+              <a routerLink="/sell" class="btn1 text-light">Login</a>  
+            </div>
+        </div>
+    </form>
+
+</div>
+

@@ -1,0 +1,79 @@
+<div class="container-fluid">
+  <div class="actioncars p-5">
+    <div id="carouselExampleControls" class="carousel slide-cars" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video controls loop autoplay>
+            <source src="https://v.ftcdn.net/02/13/69/03/240_F_213690355_wC5lNN7HbDbbABKDEKaYxzBkcBlId9lQ_ST.mp4" >
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video controls loop autoplay>
+            <source src="https://v.ftcdn.net/06/11/31/76/240_F_611317682_y8TcAToJMsplsVvC9Qq5O6TKUIyOFkkb_ST.mp4" >
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video controls loop autoplay>
+            <source src="https://v.ftcdn.net/05/92/72/35/240_F_592723511_oMiPQ3m1QrDm3wEuvAycklM0q7fMdF0p_ST.mp4" >
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video controls loop autoplay>
+            <source src="https://v.ftcdn.net/03/95/12/81/240_F_395128192_rcjdRkVAoXEchuqGUKGGBYV4Xa2T1Efi_ST.mp4" >
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video controls loop autoplay>
+            <source src="https://v.ftcdn.net/06/40/08/11/240_F_640081131_ifW103JarMr5v2KsUjaq5pqvMc6w7mWp_ST.mp4">
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video controls loop autoplay>
+            <source src="https://v.ftcdn.net/06/48/11/52/240_F_648115220_imrx01L4jHrdYUhoFsWHpIsnPKDdghJN_ST.mp4" >
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video controls loop autoplay>
+            <source src="https://v.ftcdn.net/05/94/22/80/240_F_594228063_Szx6DV7zqyBJVTl6qUIiQOjxP9tfJeQt_ST.mp4">
+          </video>
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="nav ">
+      <div class="nav-items">
+        <h3 class="text">Stocks</h3>
+        <ul class="item-list">
+          <li><a class="doll's rounded-pill p-2" href="">Doll's</a></li>
+          <li><a class="doll's rounded-pill p-2 ms-2" href="">Music Toys</a></li>
+          <li><a class="doll's rounded-pill p-2  ms-2" href="">Games</a></li>
+          <li><a class="doll's rounded-pill p-2  ms-2" href="">Remote Cars</a></li>
+          <li><a class="doll's rounded-pill p-2  ms-2" href="">Action Figures</a></li>
+        </ul>
+      </div>
+    </div>
+    <h2 class="text animate__animated animate__flipInX text-center mt-5">ACTION CARS</h2>
+    <div class="border-line"></div>
+    <div class="box">
+      <div class="card mt-5 m-4" *ngFor="let d of data" >
+        <img class="imge mt-3" src={{d.img}} alt="">
+        <h4 class="title mt-5 text-dark ms-3">{{d.title}}</h4>
+        <h4 class="price text-primary ms-3">price:<s style="color: red;">{{d.price}}</s>    20%</h4>
+        <h4 class="price text-danger ms-3">Best Price:{{d.disprice}}</h4>
+        <div class="bottons">
+          <button type="submit" class="btn ms-4 " routerLink="/purchase">Buy</button>
+          <button type="submit" class="btn  ms-4 " ><i class="bi bi-heart"></i></button>
+          <button type="submit" class="btn  ms-4 " ><i class="bi bi-minecart"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>

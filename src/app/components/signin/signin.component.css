@@ -1,0 +1,24 @@
+.col-6{
+    height: 450px;
+    width: 300px;
+    padding: 10px;
+    
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        margin-top: 200px;
+        display: flex;
+       box-shadow: 5px 5px 30px gray;
+    }
+   
+    .haveaccount{
+        margin-top: 30px;
+    }
+    .haveaccount a{
+        text-decoration: none;
+    } 
+    

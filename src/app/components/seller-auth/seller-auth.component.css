@@ -1,0 +1,28 @@
+.container-fluid{
+    height: auto;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.etsystatic.com/20668011/r/il/dd90f7/3850191627/il_794xN.3850191627_8bm9.jpg");
+    background-size: cover;
+       padding: 30px;
+}
+.box{
+    width: 30%;
+    height: auto;
+    margin-left:60%; 
+    margin-top: 180px;
+    background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/H8WuRINimqur8ud/finance-business-background_hwb9pijlg_thumbnail-1080_01.png");
+    background-size: cover;
+    padding: 30px;
+    border-radius:20px;
+
+}
+.mb-3{
+    margin-top: 30px;
+}
+.btn{
+    width: 150px;
+    margin-left:60px ;
+}

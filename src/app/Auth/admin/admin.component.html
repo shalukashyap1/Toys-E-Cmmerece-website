@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <!-- <video width="100%"  height="500px" src="/_import_626387f5e05978.25339706_FPpreview.mp4"></video> -->
+    <form [formGroup]="logForm" (ngSubmit)="login(logForm)">
+        <div class="box animate__animated animate__flipInY " >
+        <h3 class="text text-center text-light">Admin</h3>
+            <div class="mb-3">
+             <input type="text"formControlName="name"   class="form-control" 
+             placeholder="Name" required>
+             <h6 class="alert alert-danger" *ngIf="!f['name'].valid && f['name'].touched">
+               at least 3 no of charaters allows
+            </h6>
+            </div>
+            <div class="mb-3">
+                <input type="email" formControlName="email"   class="form-control"
+                placeholder="email" required>
+                <h6 class="alert alert-danger" *ngIf="!f['email'].valid && f['email'].touched">
+                    please enter valid email id.
+                </h6>
+            </div>
+            <div class="mb-3">
+               <input type="password" formControlName="password"  class="form-control"
+               placeholder="password" required> 
+               <h6 class="alert alert-danger" *ngIf="!f['password'].valid && f['password'].touched">
+                please enter cruccet Password.
+            </h6>
+            </div>
+            <div class="mb-3">
+              <input type="submit" value="Login" [disabled]="!logForm.valid" class="btn btn-danger btn-center">  
+            </div>
+            
+        </div>
+    </form>
+
+</div>
+

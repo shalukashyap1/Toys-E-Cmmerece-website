@@ -1,0 +1,22 @@
+.backgroungime{
+    margin-top: 150px;
+    height: 400px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.profile{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(184, 184, 248);
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 1px solid blue;
+}
+.container-fluid{
+    background-color: rgb(177, 220, 255);
+}

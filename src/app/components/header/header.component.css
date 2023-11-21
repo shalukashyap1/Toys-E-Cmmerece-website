@@ -1,0 +1,115 @@
+.head{
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(221, 192, 247); */
+    background-image: url("https://img.freepik.com/premium-photo/blue-wallpapers-that-will-make-your-desktop-look-like-wallpaper_608068-13874.jpg");
+    background-size: cover;
+   
+}
+.box{
+    /* box-shadow: 5px 5px 20px rgb(77, 73, 73); */
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background: white;
+    top: 0px;
+
+}
+.box a{
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.head ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  
+
+
+}
+.head ul li{
+  padding-right: 40px;
+  padding-top: 10px;
+}
+.bi{
+    font-size: 20px;
+   
+}
+input{
+height: 35px;
+background-color: rgb(239, 232, 245);
+outline-color: blueviolet;
+border-right: 0;
+width: 500px;
+
+}
+button{
+ height: 35px;
+ width: 50px;
+ font-weight: 800;
+   outline: none;
+   color: white;
+   background-color: rgb(108, 20, 192);
+}
+.dropdown{
+    margin-left: 30px;
+    
+}
+.nav{
+    height: 70px;
+    background-color: rgb(66, 12, 117);
+    border-bottom: 1px solid rgb(143, 136, 136);
+
+}
+.nav ul{
+    list-style-type: none;
+    
+}
+.nav ul a{
+   text-decoration: none;
+   text-align: center;
+  
+}
+.login{
+    display: inline;
+    padding: 10px;
+    margin-left: 150px;
+  
+}
+.log{
+   border: 0;
+   margin-right: 30px;
+   background-color: rgb(66, 12, 117);
+   color: white;
+   transition: 1s;
+}
+.log:hover{
+    transform: scale(1.5);
+    background-color: yellow;
+    width: 100px;
+    color: blue;
+    border-radius: 0px 20px;
+}
+.menu{
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 80px; */
+}
+
+
+.list{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.list li{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+

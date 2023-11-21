@@ -1,0 +1,134 @@
+.myimgages img{
+    margin-top: 118px;
+    width: 100%;
+    height: 800px;
+    border-bottom: 1px solid rgb(210, 208, 208);
+   }
+container{
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+
+.store-toys{
+    width: 90%;
+    height: 850px;
+    background-color: rgb(241, 241, 238);
+    margin: auto;
+    display: grid;
+    grid: 400px/ auto auto auto;
+
+
+}
+.card{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+    /* background-color: rgb(248, 185, 243); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgb(74, 71, 71);
+    overflow: hidden;
+
+}
+.actions{
+    margin: auto;
+    height: 270px;
+    width: 200px;
+    text-align: center;
+   transition: 1s;
+
+}
+.actions:hover{
+    transform: scale(1.5);
+}
+.card-1{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px ;
+    margin: auto ;
+     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgb(74, 71, 71);
+    overflow: hidden;
+    background-image: url("https://th.bing.com/th/id/OIP.CD6AXNXG9r3sidtN90s3kgHaG9?pid=ImgDet&rs=1");
+    background-size: cover;
+    position: relative;
+
+}
+
+.store-toys-1{
+    width: 90%;
+    height: 950px;
+    background-color: rgb(241, 241, 238);
+    margin: auto;
+    display: grid;
+    grid: 450px/ auto auto auto;
+}
+
+.btn{
+    width: 90%;
+    margin-left: 76px;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: rgb(23, 23, 121);
+    transform: scale(1.3);
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(8, 32, 148, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-1:hover .overlay {
+    opacity: 1;
+  }
+ .container-cars{
+width: 100%;
+display: block;
+height: 600px;
+
+display: block;
+justify-content: center;
+align-items: center;
+
+ }
+ .boxcars{
+  width: 90%;
+ margin: auto;
+  background-color: rgb(246, 252, 204);
+  height: 600px;
+ }
+.d-block{
+  height: 500px;
+ }
+ .btn1{
+    margin-left: 90%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgb(22, 5, 120);
+    transition: 1s;
+ }
+ .btn1:hover{
+    background-color: blue;
+    transform: scale(1.3);
+ }
+
+

@@ -1,0 +1,46 @@
+<div class="container vh-100 bg-light">
+    <form [formGroup]="logForm" (ngSubmit)="login(logForm)">
+        <div class="row-12 ">
+        <div class="box animate__animated animate__rotateInDownLeft">
+           
+                <div class="col-6 bg-primary">
+                    <h3 class="text text-light text-center">SignIn</h3>
+                    <div class="mb-3 mt-5">
+                        <input type="text" formControlName="name" placeholder="Enter Name" class="form-control" required>
+                        <h6 class="alert alert-danger" *ngIf="!f['name'].valid && f['name'].touched">
+                            at least 3 no of charaters allows
+                         </h6>
+                    </div>
+                    <div class="mb-3">
+                    <input type="email" formControlName="email" placeholder="Enter email" class="form-control" required>
+                    <h6 class="alert alert-danger" *ngIf="!f['email'].valid && f['email'].touched">
+                        please enter valid email id.
+                    </h6>
+                </div>
+                <div class="mb-3">
+                    <input type="password" formControlName="password" placeholder="Enter password" class="form-control">
+                    <h6 class="alert alert-danger" *ngIf="!f['password'].valid && f['password'].touched">
+                        please enter cruccet Password.
+                    </h6>
+                </div>
+                
+                <div class="mb-3">
+                    <input type="submit" class="btn" [disabled]="!logForm.valid" value="Login" class="form-control mt-5 bg-primary text-light">
+                </div>
+
+            </div>
+            <div class="col-6 bg-light ">
+             <h3 class="text  text-center text-primary">SignUp</h3>
+             <div class="para mt-4 m">
+                <img class="image ms-4 " src="https://th.bing.com/th/id/OIP.rI8Hzv2o0YbIpOnAaVU7RgHaH5?pid=ImgDet&rs=1" alt="" width="250px" height="300px">
+             </div>
+             <div class="haveaccount text-center ">
+            
+                <a routerLink="/signup" class="haveaccount bg-primary p-1 rounded-pill text-light ">Don't have an account</a>
+             </div>
+            </div>
+        </div>
+</div>
+</form>
+</div>
+

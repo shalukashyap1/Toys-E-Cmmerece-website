@@ -1,0 +1,17 @@
+.container-1{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+    background-image: url("https://wallpapercave.com/wp/wp1922344.jpg");
+
+}
+.mapcompany{
+    margin-top: 180px;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+

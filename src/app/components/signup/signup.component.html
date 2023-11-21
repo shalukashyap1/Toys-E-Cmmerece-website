@@ -1,0 +1,55 @@
+<div class="container vh-100 bg-light">
+    <form [formGroup]="regForm" (ngSubmit)="register(regForm)">
+        <div class="row-12 ">
+        <div class="box animate__animated animate__rotateInDownRight">
+           
+                <div class="col-6 bg-light">
+                    <h3 class="text text-primary">SignUp</h3>
+                    <div class="mb-3">
+                        <input type="text" formControlName="fname" placeholder="Enter first name" class="form-control" required>
+                        <div class="alert alert-danger" *ngIf="!f['fname'].valid && f['fname'].touched">
+                            required
+                            </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" formControlName="lname" placeholder="Enter last name"  class="form-control" required>
+                        <div class="alert alert-danger" *ngIf="!f['lname'].valid && f['lname'].touched">
+                            required
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                    <input type="email" formControlName="email" placeholder="Enter email" class="form-control" required>
+                    <div class="alert alert-danger" *ngIf="!f['email'].valid && f['email'].touched">
+                        please require vaile email id.
+                     </div>
+                </div>
+                <div class="mb-3">
+                    <input type="password" formControlName="password" placeholder="Enter secure password" class="form-control" required>
+                    <div class="alert alert-danger" *ngIf="!f['password'].valid && f['password'].touched">
+                        at least 1 uppercase,1 symbol,numaric value.
+                      </div>
+                </div>
+                <div class="mb-3">
+                    <input type="password" formControlName="confirmPass" placeholder="Confim passwod"  class="form-control" required>
+                    <div class="alert alert-danger" *ngIf="!f['confirmPass'].valid && f['confirmPass'].touched">
+                        required
+                       </div>
+                </div>
+                <div class="mb-3">
+                    <input type="submit" class="btn" value="SignUp" [disabled]="!regForm.valid" class="form-control bg-primary text-light">
+                </div>
+
+            </div>
+            <div class="col-6 bg-primary  ">
+             <h3 class="text text-light text-center">SignIn</h3>
+             <div class="para mt-4 p-2">
+                <p class="text text-light">SignIn in is usually used to enter a specific page, website or application, which trespassers cannot see. Once the user is logged in, the login token may be used to track what actions the user has taken while connected to the site.</p>
+             </div>
+             <div class="haveaccount text-center mt-5">
+                <a routerLink="/signin" class="bg-light p-1 rounded-pill ">Have an account</a>
+             </div>
+            </div>
+        </div>
+</div>
+</form>
+</div>
